@@ -86,7 +86,7 @@ Verwaltung von Quadrocoptern als Aufgabe in der Vorlesung C++
         *pContainer_3 = *pContainer_1;
     
         // �nderung am ersten Container (Original)
-        (*pContainer_1)[0].name("Klaus");
+        (*pContainer_1)[0].m_name("Klaus");
         
         pContainer_1->print();
         pContainer_2->print();
